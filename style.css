@@ -1,3 +1,30 @@
+@font-face {
+  font-family: 'Lato Thin';
+  src: url('assets/fonts/lato-v16-latin-300.woff2') format('woff2'),
+    url('assets/fonts/lato-v16-latin-300.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Lato Regular';
+  src: url('assets/fonts/lato-v16-latin-regular.woff2') format('woff2'),
+    url('assets/fonts/lato-v16-latin-regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Lato Bold';
+  src: url('assets/fonts/lato-v16-latin-700.woff2') format('woff2'),
+    url('assets/fonts/lato-v16-latin-700.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: fallback;
+}
+
 *,
 *::before,
 *::after {
