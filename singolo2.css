@@ -1,0 +1,124 @@
+/* Global */
+
+.text {
+  color: #767e9e;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 67px 0;
+  background-color: #2d303a;
+}
+
+/* Tags */
+
+.tags {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  padding: 3px 7px;
+  color: #767e9e;
+  font-size: 12px;
+  font-weight: 400;
+  border: 1px solid #666d89;
+  border-radius: 7px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.tag:not(:last-child) {
+  margin-right: 10px;
+}
+
+.tag:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* Gallery */
+
+.gallery {
+  height: 601px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  overflow: hidden;
+}
+
+.gallery img {
+  margin-bottom: 20px;
+}
+
+/* About */
+
+.about {
+  padding: 67px 0;
+  background-color: #f2f2f2;
+}
+
+.about__text {
+  margin-top: 33px;
+  margin-bottom: 50px;
+}
+
+/* Experts */
+
+.experts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expert:not(:last-child) {
+  margin-right: 20px;
+}
+
+.expert__name {
+  margin: 15px 0;
+  color: #666d89;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.expert__text {
+  color: #767e9e;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #666d89;
+  border-radius: 50%;
+}
+
+.social__link:not(:last-child) {
+  margin-right: 8px;
+}
+
+.social__link:hover svg {
+  fill: #767e9e;
+}
+
+svg {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  fill: #666d89;
+}
